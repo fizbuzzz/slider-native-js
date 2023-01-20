@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: #bca3ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.slider { 
+    height: 160px;
+    max-width: 79%;
+    width: 1220px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider__inner {
+    position: absolute;
+    left: 0%;
+    display: flex;
+    gap: 25px;
+    width: 115%;
+}
+
+
+.slider__item {
+    width: 180px;
+    min-width: 180px;
+    transition: ease .2s;
+}
+
+.slider__img {
+    width: 100%;
+    height: 100%;
+}
